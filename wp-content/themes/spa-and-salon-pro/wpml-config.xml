@@ -1,0 +1,175 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">spa_services</custom-type>
+        <custom-type translate="1">spa_testimonials</custom-type>
+        <custom-type translate="1">spa_plans</custom-type>
+        <custom-type translate="1">spa_team</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">spa_service_category</taxonomy>
+        <taxonomy translate="1">spa_plan_category</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="theme_mods_spa-and-salon-pro">
+            <key name="spa_and_salon_load_more_label" />
+            <key name="spa_and_salon_loading_label" />
+            <key name="spa_and_salon_slider_slides">
+                <key name="0">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" />  
+                </key>
+                <key name="1">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" />
+                </key>
+                <key name="2">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" /> 
+                </key>
+                <key name="3">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" />
+                </key>
+                <key name="4">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" /> 
+                </key>
+                <key name="5">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" /> 
+                </key>
+                <key name="6">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" /> 
+                </key>
+                <key name="7">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" /> 
+                </key>
+                <key name="8">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" /> 
+                </key>
+                <key name="9">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" /> 
+                </key>
+                <key name="10">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" /> 
+                </key>
+                <key name="11">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" /> 
+                </key>
+                <key name="12">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" /> 
+                </key>
+                <key name="13">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" /> 
+                </key>
+                <key name="14">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" /> 
+                </key>
+                <key name="15">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" /> 
+                </key>
+                <key name="16">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" /> 
+                </key>
+                <key name="17">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" /> 
+                </key>
+                <key name="18">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" /> 
+                </key>
+                <key name="19">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" /> 
+                </key>
+            </key>
+            <key name="spa_and_salon_slider_readmore" />
+            <key name="spa_and_salon_featured_boxes">
+                <key name="0">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" />
+                    <key name="icon" /> 
+                </key>
+                <key name="1">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" />
+                    <key name="icon" /> 
+                </key> 
+                <key name="2">
+                    <key name="title" />
+                    <key name="desc" />
+                    <key name="link" />
+                    <key name="icon" /> 
+                </key>             
+            </key>
+            
+            <key name="spa_and_salon_about_title" />
+            <key name="spa_and_salon_about_content" />
+            <key name="spa_and_salon_about_read_more" />
+            <key name="spa_and_salon_about_read_more_url" />
+            <key name="spa_and_salon_service_post_title" />
+            <key name="spa_and_salon_service_post_content" />
+            <key name="spa_and_salon_services_btn_text" />
+            <key name="spa_and_salon_services_btn_url" />
+            <key name="spa_and_salon_home_cta_text" />
+            <key name="spa_and_salon_home_cta_desc" />
+            <key name="spa_and_salon_home_cta_button_text" />
+            <key name="spa_and_salon_home_cta_button_url" />
+            <key name="spa_and_salon_plans_title" />
+            <key name="spa_and_salon_plans_desc" />
+            <key name="spa_and_salon_plans_btn_text" />
+            <key name="spa_and_salon_plans_btn_url" />
+            <key name="spa_and_salon_testimonial_section_title" />
+            <key name="spa_and_salon_testimonial_section_content" />
+            <key name="spa_and_salon_instagram_title" />
+            <key name="spa_and_salon_instagram_desc" />
+            <key name="spa_and_salon_contact_phone" />
+            <key name="spa_and_salon_contact_email" />
+            <key name="spa_and_salon_contact_address_label" />
+            <key name="spa_and_salon_contact_address" />
+            <key name="spa_and_salon_contact_hours_label" />
+            <key name="spa_and_salon_contact_hours" />
+            <key name="spa_and_salon_contact_title" />
+            <key name="spa_and_salon_contact_desc" />
+            <key name="spa_and_salon_contact_code" />
+            <key name="spa_and_salon_post_read_more" />
+            <key name="spa_and_salon_breadcrumb_home_text" />
+            <key name="spa_and_salon_social_info" />
+            <key name="spa_and_salon_footer_copyright" />
+        </key>
+    </admin-texts>
+</wpml-config>

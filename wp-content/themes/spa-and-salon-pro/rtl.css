@@ -1,0 +1,282 @@
+/*
+Theme Name: Spa and Salon Pro
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.header-t .social-networks,
+.header-t .social-networks li,
+.promotional-block .col,
+.welcome-note .col,
+.services .header .left,
+.services .col,
+.plan .header .left,
+.plan .col,
+.plan .col .img-holder,
+.contact .left,
+.contact .right,
+.contact .left .address-holder .address,
+.contact .left .address-holder .address .fa,
+.contact .left .address-holder .working-hours .fa,
+.instagram ul li,
+.site-footer .col,
+.widget.widget_spa_and_salon_social_links ul li, 
+#secondary .widget.widget_spa_and_salon_social_links ul li,
+.site-footer .site-info .copyright,
+.services-page .col,
+.plan-page .button-holder button,
+.plan-page .col .img-holder,
+.plan-page .col{
+	float: right;
+}
+
+.plan-page .col .img-holder{
+	margin-right: 0;
+	margin-left: 50px;
+}
+
+.header-t .tel-link,
+.services .header .btn-green,
+.plan .header .btn-green,
+.site-footer .site-info .by{
+	float: left;
+}
+
+.header-t .social-networks li{
+	margin-right: 0;
+	margin-left: 16px;
+}
+
+.welcome-note .col.left-col{
+	padding-right: 10px;
+	padding-left: 43px;
+}
+
+.plan .col .img-holder{
+	margin-right: 0;
+	margin-left: 50px;
+}
+
+.plan .col .text-holder{
+	padding-right: 0;
+	padding-left: 80px;
+}
+
+.main-navigation ul ul{
+	left: auto;
+	right: 0;
+	text-align: right;
+}
+
+.main-navigation ul ul li:hover > ul{
+	left: auto;
+	right: 100%;
+}
+
+.testimonial #slider .holder .img-holder,
+.testimonial #slider .holder .text-holder{
+	float: right;
+}
+
+.testimonial #slider .flex-direction-nav{
+	left: auto;
+	right: 40.5%;
+}
+
+.testimonial #carousel{
+	float: left;
+}
+
+.testimonial #slider .holder .text-holder{
+	padding-left: 10px;
+	padding-right: 30px;
+}
+
+.testimonial #carousel .slides > li{
+	margin-right: 0 !important;
+}
+
+.contact .right form input,
+.contact .right form textarea,
+.contact .right form select{
+	text-align: right;
+}
+
+.contact .right form select{
+	float: right;
+}
+
+.contact .right form input[type="submit"],
+div.wpcf7 .ajax-loader{
+	float: right;
+}
+
+div.wpcf7 .ajax-loader{
+	margin-top: 16px;
+	margin-right: 5px;
+}
+
+.contact .right .holder{
+	padding-right: 50px;
+	padding-left: 0;
+}
+
+.contact .left .holder{
+	padding-right: 0;
+	padding-left: 30px;
+}
+
+.contact .left .address-holder .address .fa, .contact .left .address-holder .working-hours .fa{
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.contact .left .address-holder .address{
+	border-right: 0;
+	border-left: 2px solid #ededed;
+}
+
+.contact .left .address-holder .working-hours{
+	padding-right:55px;
+	padding-left: 0;
+}
+
+.contact .left .address-holder .address{
+	padding-right: 0;
+	padding-left: 55px;
+}
+
+.widget.widget_spa_and_salon_social_links ul li,
+ #secondary .widget.widget_spa_and_salon_social_links ul li,
+ .site-footer .widget.widget_spa_and_salon_social_links ul li{
+ 	margin-right: 0;
+ 	margin-left: 15px;
+ }
+
+ #crumbs span, #crumbs a{
+ 	display: inline-block;
+ 	margin-right: 0;
+ 	margin-left: 3px;
+ }
+
+ .plan-page .col .text-holder{
+ 	padding-left: 80px;
+ 	padding-right: 0;
+ }
+
+ .our-team .team .img-holder{
+ 	float: right;
+ 	margin-right: 0;
+ 	margin-left: 100px;
+ }
+
+ .testimonial-page .testimonials .img-holder{
+ 	float: right;
+ 	margin-right: 0;
+ 	margin-left: 55px;
+ }
+
+ .contact-page .contact-info .col{
+ 	float: right;
+ }
+
+ .contact-page .form-section .form-holder{
+ 	text-align: right;
+ }
+
+ .contact-page .form-section form input,
+  .contact-page .form-section form textarea{
+ 	text-align: right;
+ }
+
+   .contact-page p:after{
+   	content: '';
+   	display: block;
+   	clear: both;
+   		
+   }
+.contact-page .form-section form input[type="submit"]{
+	float: right;
+}
+
+.woocommerce ul.products li.product .button{
+	float: right;
+}
+
+.widget.widget_spa_and_salon_instagram_widget ul li,
+ #secondary .widget.widget_spa_and_salon_instagram_widget ul li,
+.widget.widget_spa_and_salon_flickr_widget ul li, 
+#secondary .widget.widget_spa_and_salon_flickr_widget ul li,
+#secondary .widget.widget_spa_and_salon_recent_post .post-thumbnail, 
+#secondary .widget.widget_spa_and_salon_author_post .post-thumbnail, 
+#secondary .widget.widget_spa_and_salon_category_post .post-thumbnail,
+ .widget.widget_spa_and_salon_recent_post .post-thumbnail,
+  .widget.widget_spa_and_salon_author_post .post-thumbnail,
+ .widget.widget_spa_and_salon_category_post .post-thumbnail{
+	float: right;
+}
+
+#secondary .widget.widget_spa_and_salon_recent_post .post-thumbnail, 
+#secondary .widget.widget_spa_and_salon_author_post .post-thumbnail, 
+#secondary .widget.widget_spa_and_salon_category_post .post-thumbnail,
+ .widget.widget_spa_and_salon_recent_post .post-thumbnail,
+  .widget.widget_spa_and_salon_author_post .post-thumbnail,
+ .widget.widget_spa_and_salon_category_post .post-thumbnail{
+ 	margin-left: 20px;
+ 	margin-right: 0;
+ }
+
+#secondary .widget.widget_categories ul li::before,
+#secondary .widget.widget_recent_entries ul li:before{
+	display: inline-block;
+	transform: rotateY(180deg);
+}
+
+.post .entry-meta span{
+	margin-left: 23px;
+	margin-right: 0;
+	display: inline-block;
+}
+
+#primary .post .entry-meta span a::before{
+	margin-left: 7px;
+}
+
+#load-posts a .fa{
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.gallery-item,
+#primary .similar-posts .post{
+	float: right;
+}
+
+.comment-author img{
+	float: right;
+	margin-right: 0;
+	margin-left: 25px;
+}
+
+#primary .widget-area .widget.widget_spa_and_salon_recent_post ul li, 
+#primary .widget-area .widget.widget_spa_and_salon_popular_post ul li, 
+#primary .widget-area .widget.widget_spa_and_salon_author_post ul li,
+ #primary .widget-area .widget.widget_spa_and_salon_category_post ul li{
+	float: right;
+}
+
+#rara-top{
+	right: auto;
+	left: 10px;
+}

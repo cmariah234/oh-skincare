@@ -1,0 +1,48 @@
+
+---Downloaded files---
+The import files for: Spa And Salon Demo were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = https://serendipityfresno1-mariah234.c9users.io
+Data file = /home/ubuntu/workspace/wp-content/uploads/rara-demo-pack/spa-and-salon-demo-content/content/spaandsalon.xml
+Widget file = /home/ubuntu/workspace/wp-content/uploads/rara-demo-pack/spa-and-salon-demo-content/content/spaandsalon.wie
+Customizer file = /home/ubuntu/workspace/wp-content/uploads/rara-demo-pack/spa-and-salon-demo-content/content/spaandsalon.dat
+
+---Importing content---
+
+Max execution time after content import = 300
+
+---Importing widgets---
+Right Sidebar : 
+
+Search - No Title - Widget already exists
+Recent Posts - No Title - Widget already exists
+Recent Comments - No Title - Widget already exists
+Archives - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Meta - No Title - Widget already exists
+RARA: Featured Post - No Title - Imported
+RARA: Social Links - Connect with Us - Imported
+RARA: Recent Post - Recent Posts - Imported
+RARA: Popular Post - Most Popular - Imported
+
+Footer One : 
+
+Text - About Spa and Salon - Imported
+
+Footer Two : 
+
+Text - MAP - Imported
+
+Footer Three : 
+
+Text - Opening Hours - Imported
+RARA: Social Links - Connect with Us - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---rrdi/after_import---
+

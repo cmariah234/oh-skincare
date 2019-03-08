@@ -1,0 +1,176 @@
+[24-Jan-2019 21:51:16 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php on line 154
+[24-Jan-2019 21:51:16 UTC] PHP Stack trace:
+[24-Jan-2019 21:51:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[24-Jan-2019 21:51:16 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[24-Jan-2019 21:51:16 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin.php:222
+[24-Jan-2019 21:51:16 UTC] PHP   4. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[24-Jan-2019 21:51:16 UTC] PHP   5. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[24-Jan-2019 21:51:16 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[24-Jan-2019 21:51:16 UTC] PHP   7. TGM_Plugin_Activation->install_plugins_page() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[24-Jan-2019 21:51:16 UTC] PHP   8. TGMPA_List_Table->process_bulk_actions() /home/ubuntu/workspace/wp-content/themes/spa-and-salon/inc/tgmpa/class-tgm-plugin-activation.php:658
+[24-Jan-2019 21:51:16 UTC] PHP   9. TGMPA_Bulk_Installer->bulk_install() /home/ubuntu/workspace/wp-content/themes/spa-and-salon/inc/tgmpa/class-tgm-plugin-activation.php:2892
+[24-Jan-2019 21:51:16 UTC] PHP  10. TGMPA_Bulk_Installer->run() /home/ubuntu/workspace/wp-content/themes/spa-and-salon/inc/tgmpa/class-tgm-plugin-activation.php:3289
+[24-Jan-2019 21:51:16 UTC] PHP  11. WP_Upgrader->run() /home/ubuntu/workspace/wp-content/themes/spa-and-salon/inc/tgmpa/class-tgm-plugin-activation.php:3173
+[24-Jan-2019 21:51:16 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /home/ubuntu/workspace/wp-admin/includes/class-wp-upgrader.php:757
+[24-Jan-2019 21:51:16 UTC] PHP  13. Bulk_Upgrader_Skin->after() /home/ubuntu/workspace/wp-content/themes/spa-and-salon/inc/tgmpa/class-tgm-plugin-activation.php:3553
+[24-Jan-2019 21:51:16 UTC] PHP  14. sprintf() /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php:154
+[24-Jan-2019 21:51:16 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php on line 154
+[24-Jan-2019 21:51:16 UTC] PHP Stack trace:
+[24-Jan-2019 21:51:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[24-Jan-2019 21:51:16 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[24-Jan-2019 21:51:16 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin.php:222
+[24-Jan-2019 21:51:16 UTC] PHP   4. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[24-Jan-2019 21:51:16 UTC] PHP   5. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[24-Jan-2019 21:51:16 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[24-Jan-2019 21:51:16 UTC] PHP   7. TGM_Plugin_Activation->install_plugins_page() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[24-Jan-2019 21:51:16 UTC] PHP   8. TGMPA_List_Table->process_bulk_actions() /home/ubuntu/workspace/wp-content/themes/spa-and-salon/inc/tgmpa/class-tgm-plugin-activation.php:658
+[24-Jan-2019 21:51:16 UTC] PHP   9. TGMPA_Bulk_Installer->bulk_install() /home/ubuntu/workspace/wp-content/themes/spa-and-salon/inc/tgmpa/class-tgm-plugin-activation.php:2892
+[24-Jan-2019 21:51:16 UTC] PHP  10. TGMPA_Bulk_Installer->run() /home/ubuntu/workspace/wp-content/themes/spa-and-salon/inc/tgmpa/class-tgm-plugin-activation.php:3289
+[24-Jan-2019 21:51:16 UTC] PHP  11. WP_Upgrader->run() /home/ubuntu/workspace/wp-content/themes/spa-and-salon/inc/tgmpa/class-tgm-plugin-activation.php:3173
+[24-Jan-2019 21:51:16 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /home/ubuntu/workspace/wp-admin/includes/class-wp-upgrader.php:757
+[24-Jan-2019 21:51:16 UTC] PHP  13. Bulk_Upgrader_Skin->after() /home/ubuntu/workspace/wp-content/themes/spa-and-salon/inc/tgmpa/class-tgm-plugin-activation.php:3553
+[24-Jan-2019 21:51:16 UTC] PHP  14. sprintf() /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php:154
+[24-Jan-2019 21:58:16 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'spa_and_salon_excerpt_more' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[24-Jan-2019 21:58:16 UTC] PHP Stack trace:
+[24-Jan-2019 21:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[24-Jan-2019 21:58:16 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post-new.php:76
+[24-Jan-2019 21:58:16 UTC] PHP   3. array_reduce() /home/ubuntu/workspace/wp-admin/edit-form-blocks.php:76
+[24-Jan-2019 21:58:16 UTC] PHP   4. rest_preload_api_request() /home/ubuntu/workspace/wp-admin/edit-form-blocks.php:76
+[24-Jan-2019 21:58:16 UTC] PHP   5. rest_do_request() /home/ubuntu/workspace/wp-includes/rest-api.php:1367
+[24-Jan-2019 21:58:16 UTC] PHP   6. WP_REST_Server->dispatch() /home/ubuntu/workspace/wp-includes/rest-api.php:419
+[24-Jan-2019 21:58:16 UTC] PHP   7. call_user_func:{/home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936}() /home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936
+[24-Jan-2019 21:58:16 UTC] PHP   8. WP_REST_Posts_Controller->get_item() /home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936
+[24-Jan-2019 21:58:16 UTC] PHP   9. WP_REST_Posts_Controller->prepare_item_for_response() /home/ubuntu/workspace/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:465
+[24-Jan-2019 21:58:16 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1528
+[24-Jan-2019 21:58:16 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[24-Jan-2019 21:58:16 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[24-Jan-2019 21:58:16 UTC] PHP  13. wp_trim_excerpt() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[24-Jan-2019 21:58:16 UTC] PHP  14. apply_filters() /home/ubuntu/workspace/wp-includes/formatting.php:3332
+[24-Jan-2019 21:58:16 UTC] PHP  15. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[24-Jan-2019 21:58:16 UTC] PHP  16. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[24-Jan-2019 21:58:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'spa_and_salon_excerpt_more' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[24-Jan-2019 21:58:35 UTC] PHP Stack trace:
+[24-Jan-2019 21:58:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[24-Jan-2019 21:58:35 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post.php:168
+[24-Jan-2019 21:58:35 UTC] PHP   3. array_reduce() /home/ubuntu/workspace/wp-admin/edit-form-blocks.php:76
+[24-Jan-2019 21:58:35 UTC] PHP   4. rest_preload_api_request() /home/ubuntu/workspace/wp-admin/edit-form-blocks.php:76
+[24-Jan-2019 21:58:35 UTC] PHP   5. rest_do_request() /home/ubuntu/workspace/wp-includes/rest-api.php:1367
+[24-Jan-2019 21:58:35 UTC] PHP   6. WP_REST_Server->dispatch() /home/ubuntu/workspace/wp-includes/rest-api.php:419
+[24-Jan-2019 21:58:35 UTC] PHP   7. call_user_func:{/home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936}() /home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936
+[24-Jan-2019 21:58:35 UTC] PHP   8. WP_REST_Posts_Controller->get_item() /home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936
+[24-Jan-2019 21:58:35 UTC] PHP   9. WP_REST_Posts_Controller->prepare_item_for_response() /home/ubuntu/workspace/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:465
+[24-Jan-2019 21:58:35 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1528
+[24-Jan-2019 21:58:35 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[24-Jan-2019 21:58:35 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[24-Jan-2019 21:58:35 UTC] PHP  13. wp_trim_excerpt() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[24-Jan-2019 21:58:35 UTC] PHP  14. apply_filters() /home/ubuntu/workspace/wp-includes/formatting.php:3332
+[24-Jan-2019 21:58:35 UTC] PHP  15. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[24-Jan-2019 21:58:35 UTC] PHP  16. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[24-Jan-2019 21:59:27 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'spa_and_salon_excerpt_more' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[24-Jan-2019 21:59:27 UTC] PHP Stack trace:
+[24-Jan-2019 21:59:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[24-Jan-2019 21:59:27 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post.php:168
+[24-Jan-2019 21:59:27 UTC] PHP   3. array_reduce() /home/ubuntu/workspace/wp-admin/edit-form-blocks.php:76
+[24-Jan-2019 21:59:27 UTC] PHP   4. rest_preload_api_request() /home/ubuntu/workspace/wp-admin/edit-form-blocks.php:76
+[24-Jan-2019 21:59:27 UTC] PHP   5. rest_do_request() /home/ubuntu/workspace/wp-includes/rest-api.php:1367
+[24-Jan-2019 21:59:27 UTC] PHP   6. WP_REST_Server->dispatch() /home/ubuntu/workspace/wp-includes/rest-api.php:419
+[24-Jan-2019 21:59:27 UTC] PHP   7. call_user_func:{/home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936}() /home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936
+[24-Jan-2019 21:59:27 UTC] PHP   8. WP_REST_Posts_Controller->get_item() /home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936
+[24-Jan-2019 21:59:27 UTC] PHP   9. WP_REST_Posts_Controller->prepare_item_for_response() /home/ubuntu/workspace/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:465
+[24-Jan-2019 21:59:27 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1528
+[24-Jan-2019 21:59:27 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[24-Jan-2019 21:59:27 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[24-Jan-2019 21:59:27 UTC] PHP  13. wp_trim_excerpt() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[24-Jan-2019 21:59:27 UTC] PHP  14. apply_filters() /home/ubuntu/workspace/wp-includes/formatting.php:3332
+[24-Jan-2019 21:59:27 UTC] PHP  15. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[24-Jan-2019 21:59:27 UTC] PHP  16. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[24-Jan-2019 22:14:55 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'spa_and_salon_excerpt_more' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[24-Jan-2019 22:14:55 UTC] PHP Stack trace:
+[24-Jan-2019 22:14:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[24-Jan-2019 22:14:55 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post.php:168
+[24-Jan-2019 22:14:55 UTC] PHP   3. array_reduce() /home/ubuntu/workspace/wp-admin/edit-form-blocks.php:76
+[24-Jan-2019 22:14:55 UTC] PHP   4. rest_preload_api_request() /home/ubuntu/workspace/wp-admin/edit-form-blocks.php:76
+[24-Jan-2019 22:14:55 UTC] PHP   5. rest_do_request() /home/ubuntu/workspace/wp-includes/rest-api.php:1367
+[24-Jan-2019 22:14:55 UTC] PHP   6. WP_REST_Server->dispatch() /home/ubuntu/workspace/wp-includes/rest-api.php:419
+[24-Jan-2019 22:14:55 UTC] PHP   7. call_user_func:{/home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936}() /home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936
+[24-Jan-2019 22:14:55 UTC] PHP   8. WP_REST_Posts_Controller->get_item() /home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936
+[24-Jan-2019 22:14:55 UTC] PHP   9. WP_REST_Posts_Controller->prepare_item_for_response() /home/ubuntu/workspace/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:465
+[24-Jan-2019 22:14:55 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1528
+[24-Jan-2019 22:14:55 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[24-Jan-2019 22:14:55 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[24-Jan-2019 22:14:55 UTC] PHP  13. wp_trim_excerpt() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[24-Jan-2019 22:14:55 UTC] PHP  14. apply_filters() /home/ubuntu/workspace/wp-includes/formatting.php:3332
+[24-Jan-2019 22:14:55 UTC] PHP  15. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[24-Jan-2019 22:14:55 UTC] PHP  16. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[24-Jan-2019 22:15:19 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'spa_and_salon_excerpt_more' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[24-Jan-2019 22:15:19 UTC] PHP Stack trace:
+[24-Jan-2019 22:15:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[24-Jan-2019 22:15:19 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post.php:168
+[24-Jan-2019 22:15:19 UTC] PHP   3. array_reduce() /home/ubuntu/workspace/wp-admin/edit-form-blocks.php:76
+[24-Jan-2019 22:15:19 UTC] PHP   4. rest_preload_api_request() /home/ubuntu/workspace/wp-admin/edit-form-blocks.php:76
+[24-Jan-2019 22:15:19 UTC] PHP   5. rest_do_request() /home/ubuntu/workspace/wp-includes/rest-api.php:1367
+[24-Jan-2019 22:15:19 UTC] PHP   6. WP_REST_Server->dispatch() /home/ubuntu/workspace/wp-includes/rest-api.php:419
+[24-Jan-2019 22:15:19 UTC] PHP   7. call_user_func:{/home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936}() /home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936
+[24-Jan-2019 22:15:19 UTC] PHP   8. WP_REST_Posts_Controller->get_item() /home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936
+[24-Jan-2019 22:15:19 UTC] PHP   9. WP_REST_Posts_Controller->prepare_item_for_response() /home/ubuntu/workspace/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:465
+[24-Jan-2019 22:15:19 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1528
+[24-Jan-2019 22:15:19 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[24-Jan-2019 22:15:19 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[24-Jan-2019 22:15:19 UTC] PHP  13. wp_trim_excerpt() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[24-Jan-2019 22:15:19 UTC] PHP  14. apply_filters() /home/ubuntu/workspace/wp-includes/formatting.php:3332
+[24-Jan-2019 22:15:19 UTC] PHP  15. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[24-Jan-2019 22:15:19 UTC] PHP  16. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[24-Jan-2019 22:15:47 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'spa_and_salon_excerpt_more' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[24-Jan-2019 22:15:47 UTC] PHP Stack trace:
+[24-Jan-2019 22:15:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[24-Jan-2019 22:15:47 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post.php:168
+[24-Jan-2019 22:15:47 UTC] PHP   3. array_reduce() /home/ubuntu/workspace/wp-admin/edit-form-blocks.php:76
+[24-Jan-2019 22:15:47 UTC] PHP   4. rest_preload_api_request() /home/ubuntu/workspace/wp-admin/edit-form-blocks.php:76
+[24-Jan-2019 22:15:47 UTC] PHP   5. rest_do_request() /home/ubuntu/workspace/wp-includes/rest-api.php:1367
+[24-Jan-2019 22:15:47 UTC] PHP   6. WP_REST_Server->dispatch() /home/ubuntu/workspace/wp-includes/rest-api.php:419
+[24-Jan-2019 22:15:47 UTC] PHP   7. call_user_func:{/home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936}() /home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936
+[24-Jan-2019 22:15:47 UTC] PHP   8. WP_REST_Posts_Controller->get_item() /home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936
+[24-Jan-2019 22:15:47 UTC] PHP   9. WP_REST_Posts_Controller->prepare_item_for_response() /home/ubuntu/workspace/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:465
+[24-Jan-2019 22:15:47 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1528
+[24-Jan-2019 22:15:47 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[24-Jan-2019 22:15:47 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[24-Jan-2019 22:15:47 UTC] PHP  13. wp_trim_excerpt() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[24-Jan-2019 22:15:47 UTC] PHP  14. apply_filters() /home/ubuntu/workspace/wp-includes/formatting.php:3332
+[24-Jan-2019 22:15:47 UTC] PHP  15. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[24-Jan-2019 22:15:47 UTC] PHP  16. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[24-Jan-2019 22:16:29 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'spa_and_salon_excerpt_more' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[24-Jan-2019 22:16:29 UTC] PHP Stack trace:
+[24-Jan-2019 22:16:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[24-Jan-2019 22:16:29 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post.php:168
+[24-Jan-2019 22:16:29 UTC] PHP   3. array_reduce() /home/ubuntu/workspace/wp-admin/edit-form-blocks.php:76
+[24-Jan-2019 22:16:29 UTC] PHP   4. rest_preload_api_request() /home/ubuntu/workspace/wp-admin/edit-form-blocks.php:76
+[24-Jan-2019 22:16:29 UTC] PHP   5. rest_do_request() /home/ubuntu/workspace/wp-includes/rest-api.php:1367
+[24-Jan-2019 22:16:29 UTC] PHP   6. WP_REST_Server->dispatch() /home/ubuntu/workspace/wp-includes/rest-api.php:419
+[24-Jan-2019 22:16:29 UTC] PHP   7. call_user_func:{/home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936}() /home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936
+[24-Jan-2019 22:16:29 UTC] PHP   8. WP_REST_Posts_Controller->get_item() /home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936
+[24-Jan-2019 22:16:29 UTC] PHP   9. WP_REST_Posts_Controller->prepare_item_for_response() /home/ubuntu/workspace/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:465
+[24-Jan-2019 22:16:29 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1528
+[24-Jan-2019 22:16:29 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[24-Jan-2019 22:16:29 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[24-Jan-2019 22:16:29 UTC] PHP  13. wp_trim_excerpt() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[24-Jan-2019 22:16:29 UTC] PHP  14. apply_filters() /home/ubuntu/workspace/wp-includes/formatting.php:3332
+[24-Jan-2019 22:16:29 UTC] PHP  15. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[24-Jan-2019 22:16:29 UTC] PHP  16. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Jan-2019 17:49:13 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'spa_and_salon_excerpt_more' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[25-Jan-2019 17:49:13 UTC] PHP Stack trace:
+[25-Jan-2019 17:49:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[25-Jan-2019 17:49:13 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post.php:168
+[25-Jan-2019 17:49:13 UTC] PHP   3. array_reduce() /home/ubuntu/workspace/wp-admin/edit-form-blocks.php:76
+[25-Jan-2019 17:49:13 UTC] PHP   4. rest_preload_api_request() /home/ubuntu/workspace/wp-admin/edit-form-blocks.php:76
+[25-Jan-2019 17:49:13 UTC] PHP   5. rest_do_request() /home/ubuntu/workspace/wp-includes/rest-api.php:1367
+[25-Jan-2019 17:49:13 UTC] PHP   6. WP_REST_Server->dispatch() /home/ubuntu/workspace/wp-includes/rest-api.php:419
+[25-Jan-2019 17:49:13 UTC] PHP   7. call_user_func:{/home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936}() /home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936
+[25-Jan-2019 17:49:13 UTC] PHP   8. WP_REST_Posts_Controller->get_item() /home/ubuntu/workspace/wp-includes/rest-api/class-wp-rest-server.php:936
+[25-Jan-2019 17:49:13 UTC] PHP   9. WP_REST_Posts_Controller->prepare_item_for_response() /home/ubuntu/workspace/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:465
+[25-Jan-2019 17:49:13 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1528
+[25-Jan-2019 17:49:13 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[25-Jan-2019 17:49:13 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[25-Jan-2019 17:49:13 UTC] PHP  13. wp_trim_excerpt() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[25-Jan-2019 17:49:13 UTC] PHP  14. apply_filters() /home/ubuntu/workspace/wp-includes/formatting.php:3332
+[25-Jan-2019 17:49:13 UTC] PHP  15. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[25-Jan-2019 17:49:13 UTC] PHP  16. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286

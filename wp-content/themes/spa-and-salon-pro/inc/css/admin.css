@@ -1,0 +1,178 @@
+/**
+* Admin Style
+*/
+.clearfix:after, .clearfix:before{ 
+    display : table; content:"";
+}
+.clearfix:after{ 
+    clear : both;
+}
+.clearfix{*zoom:1}
+
+.float-left{
+    float:left;
+}
+.bold-label{
+    font-weight:bold;
+}
+.input_label{
+    padding: 5px 6px 0 0;
+}
+.below_row_input select{
+    width: 400px;
+}
+.below_row_input input{
+    width:500px;
+} 
+
+/** Radio Image Button */
+.page-meta-box.form-table td{
+	padding: 5px;
+}
+
+.f13{
+	font-size: 13px !important; 
+	line-height: 16px
+}
+
+.radio-image-wrapper{
+	margin-right: 25px; 
+	float: left;
+}
+
+.hide-radio{
+	position: relative;
+	margin-bottom: 6px;
+}
+
+.hide-radio img, .hide-radio label{
+	display: block;
+}
+
+.hide-radio input[type="radio"]{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	opacity: 0;
+}
+
+.hide-radio input[type=radio] + label {
+	border: 3px solid #F1F1F1;
+}
+
+.hide-radio input[type=radio]:checked + label {
+  border: 3px solid #CCC;
+}
+/** Radio Image Button Ends */
+
+/** Widget Media Upload */
+.rara-screenshot{
+    margin-top: 5px;
+}
+.widget-upload{
+    position: relative;
+    margin-bottom: 10px;
+}
+.widget-upload img{
+    border:1px solid #CCC;
+    padding: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.widget-upload .rara-remove-image {
+    background: url("../../images/ico-delete.png");
+    bottom: 4px;
+    display: block;
+    float: left;
+    height: 16px;
+    left: -4px;
+    padding: 0;
+    position: absolute;
+    text-indent: -9999px;
+    width: 16px;
+    cursor: pointer;
+}
+.widget-upload img{ 
+    max-width: 100%;
+}
+/** Widget Media Upload Ends */
+
+/** Widget Icon Text */
+.rara-font-awesome-list{
+    margin-bottom: 10px 
+}
+.rara-font-awesome-list ul{
+    text-align: center; 
+    height: 300px; 
+    overflow-y:scroll; 
+    position: relative; 
+    border:1px solid #EEE; 
+    margin: 0
+}
+.rara-font-awesome-list li{
+    width:60px;
+    height: 60px; 
+    display: inline-block;
+    margin: 4px;
+    cursor: pointer;
+}
+.rara-font-awesome-list li:hover, 
+.rara-font-awesome-list li.selected{
+	background: #F6F6F6;
+}
+.rara-font-awesome-list li svg{
+	font-size: 32px;
+	line-height: 60px;
+	color:#000;
+	display: block;
+}
+.icon-receiver {
+    background: none repeat scroll 0 0 #f6f6f6;
+    display: block;
+    font-size: 32px;
+    text-align: center;
+}
+.icon-receiver svg{
+    margin: 10px;
+}
+.rara-remove-icon{
+    background: url("../../images/ico-delete.png");
+    bottom: 4px;
+    display: block;
+    float: left;
+    height: 16px;
+    left: -4px;
+    padding: 0;
+    position: absolute;
+    text-indent: -9999px;
+    width: 16px;
+    cursor: pointer;
+}
+
+.widget-content p{position: relative;}
+/** Widget Icon Text Ends */
+
+/* Style for info links */
+.customize-control-description ul li{
+	padding-left: 20px;
+	position: relative;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.customize-control-description ul li:after{
+	position: absolute;
+	top: 1px;
+	left: 0;
+    content: '';
+    width: 12px;
+    height: 20px;
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23683665' viewBox='0 0 512 512'%3E%3Cpath d='M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z'/%3E%3C/svg%3E") center center no-repeat;
+}
+
+#sub-accordion-section-theme_info .customize-control-title{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
